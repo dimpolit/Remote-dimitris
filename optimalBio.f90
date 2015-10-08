@@ -5,7 +5,8 @@ program stab
   USE fcost_mod
  
  implicit none
-
+ aaaaaaaaaaaaa
+ bbbbbbbbbbbb
  INTERFACE
      FUNCTION mod1dv(p)
        USE com
@@ -51,7 +52,7 @@ program stab
   para_ref(7)=15.5_rsh
   para_ref(8)=18.5_rsh
 
-
+! Using for check diff
   l_bound(1)=0.000001_rsh
   h_bound(1)=0.8_rsh
   l_bound(2)=0.000001_rsh
