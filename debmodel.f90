@@ -415,8 +415,8 @@ END SUBROUTINE deb_cycle
 END SUBROUTINE read_env
 
 !!======================================================================
-   function get_Xdeb(n,m,size)
-
+!   function get_Xdeb(n,m,size)
+!   function get_Xdeb(n,m,size,age))  
 !&E---------------------------------------------------------------------
    !&E                 ***  ROUTINE  get_Xdeb ***
    !&E
