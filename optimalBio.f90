@@ -125,7 +125,7 @@ FUNCTION mod1dv(p)
   real(8)           :: temp5(365),temp10(365),temp20(365),temp25(365),temp35(365)
   real(8),parameter :: d2s= 86400.0d0    ! day -> sec
   integer           :: hourday,init
-  integer, parameter :: dd=200
+  integer, parameter :: dd=300
   real(4)           :: z1(dd),z2(dd),z3(dd),tem(dd)   
 !------------------------------------------------------
 ! executable statement
@@ -214,8 +214,8 @@ OPEN(UNIT=112,FILE='environment.dat',STATUS='unknown')
 
    if (mod(hourday,24)==0 .and. xfi(1)/=0.0) then
 
-   !     write(*,*)'Monitor1', CTime,hourday,xfi(1),bl(1)
-   !     write(*,*)'Monitor2', iar,jjday,hourday,nbouc
+        write(*,*)'Monitor1', CTime,hourday,xfi(1),bl(1)
+        write(*,*)'Monitor2', iar,jjday,hourday,nbouc
            
    !        if (compt>=timestep_out) then
               if (optimisation) then
