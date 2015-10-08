@@ -358,8 +358,6 @@ part(n,m)%size=phys_L
   part(n,m)%Wdeb = WV+WE+WR+WG
 
 ! Energy
-  NRJ_V = d_V*rho_V*part(n,m)%L**3
-  NRJ_g = (NRJ_V + part(n,m)%E + part(n,m)%R+part(n,m)%Gam) !/ part(n,m)%Wdeb 
 
 endif ! test on number of living individuals in Super Individual
 
