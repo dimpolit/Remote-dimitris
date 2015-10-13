@@ -18,6 +18,8 @@ MODULE comibm
  !     integer, parameter :: nteggs=2
 
       real(8),dimension(ncohort)  :: xfi,bl,iage
-      real(8),dimension(ncohort)  :: predator, boat        
+      real(8),dimension(ncohort)  :: predator, boat  
+      
+       real(8),dimension(ncohort)  :: check-1,check-2
 
 END MODULE comibm
